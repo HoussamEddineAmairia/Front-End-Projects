@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f5f7fb;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-bottom: 2px solid #4e73df;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto 15px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 500px;
+    align-items: center;
+}
+
+
+li {
+    list-style: none;
+}
+
+.link:link,
+.link:visited,
+.link:focus {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #555;
+
+}
+
+.nav-links li a {
+    font-weight: 500;
+    padding: 6px 12px;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo span {
+    color: #4e73df;
+}
+
+.sign-out {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-out img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #4e73df;
+}
+
+.SignOut-btn {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.SignOut-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    filter: brightness(1.05);
+}
+
+.SignOut-btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 30px auto;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.leftpanel {
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.leftpanel h2 {
+  color: #4e73df;
+}
+
+.profilepic {
+    margin: 1rem 0.25rem;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #4e73df;
+}
+
+.ID {
+    background-color: #e0e7ff;
+    color: #4338ca;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 16px;
+    display: inline-block;
+}
+.info {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.info li {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.rightpanel {
+  flex: 2;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+    .phone,
+    .email {
+        text-decoration: none;
+        color: #4338ca;
+    }
+
+.card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.card ul li {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.card h3 {
+  color: #4e73df;
+  margin-bottom: 15px;
+}
+
+.markstable {
+  width: 100%;
+  background-color: #f5f7fb;
+  border-radius: 8px;
+}
+
+.markstable th,
+.markstable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #4e73df;
+}
+
+.markstable th {
+  color: #4e73df;
+}
+
+.markstable tr:last-child td {
+  border-bottom: none;
+}
+
+.divider {
+  background-color: #4e73df;
+  margin: 1rem 0;
+}
+
+.sectiontitle {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #4e73df;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 2px solid #4e73df;
+}
