@@ -1,0 +1,97 @@
+  .pricing-section {
+        max-width: 1200px;
+        margin: 60px auto;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .pricing-section h2 {
+        font-size: 32px;
+        margin-bottom: 50px;
+        color: #e91820;
+        font-weight: bold;
+    }
+
+    .pricing-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 6px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        padding: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .featured {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .price {
+        font-size: 2rem;
+        color: #e91820;
+        margin-bottom: 20px;
+    }
+
+    .price span {
+        font-size: 0.9rem;
+        color: #ccc;
+    }
+
+    .pricing-section ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .pricing-section li {
+        padding: 8px 0;
+        color: #ccc;
+    }
+
+    .pricing-section li.active {
+        color: #444;
+    }
+
+    .btn {
+        padding: 10px 25px;
+        border: none;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .btn.gray {
+        background-color: #555;
+        color: #fff;
+    }
+
+    .btn.gray:hover {
+        background-color: #e91820;
+        transition: 1s ease;
+        scale: 1.1;
+    }
+
+    .btn.red {
+        background-color: #e91820;
+        color: white;
+    }
+
+    .btn.red:hover {
+        scale: 1.1;
+        transition: 1s ease;
+    }
+

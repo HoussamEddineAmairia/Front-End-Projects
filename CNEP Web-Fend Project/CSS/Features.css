@@ -1,0 +1,26 @@
+  .features {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .feature-box {
+        max-width: 250px;
+    }
+
+    .feature-box img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-box h3 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .feature-box p {
+        font-size: 14px;
+        color: #555;
+    }

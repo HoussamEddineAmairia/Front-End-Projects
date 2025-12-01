@@ -1,0 +1,53 @@
+
+    .feedback-section {
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .feedback-title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #e91820;
+        margin-bottom: 40px;
+    }
+
+    .feedback-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .feedback-card {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+    }
+
+    .feedback-name {
+        font-weight: bold;
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+    .feedback-text {
+        font-style: italic;
+        color: #666;
+    }
+

@@ -1,0 +1,54 @@
+ .about-us {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .aboutus-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 32px;
+        margin-bottom: 10px;
+        color: #e91820;
+        font-weight: bold;
+    }
+
+    .subtitle {
+        color: #999;
+        max-width: 600px;
+        margin: 0 auto 40px auto;
+        font-size: 16px;
+    }
+
+    .aboutus-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .Aboutus img {
+        max-width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .text {
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #111;
+    }
+
+    .text p {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #666;
+    }

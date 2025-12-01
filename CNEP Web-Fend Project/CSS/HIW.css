@@ -1,0 +1,110 @@
+ .HIW-section {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .HIW-section h2 {
+        font-size: 32px;
+        color: #e91820;
+        margin-bottom: 10px;
+    }
+
+    .HIW-section p.subtitle {
+        color: #888;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .carousel {
+        position: relative;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .slides {
+        display: flex;
+        overflow: hidden;
+    }
+
+    .slide {
+        min-width: 100%;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .slide.active {
+        display: flex;
+    }
+
+    .image-box {
+        flex: 1 1 400px;
+        max-width: 500px;
+    }
+
+    .image-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .text-box {
+        flex: 1 1 400px;
+        text-align: left;
+        max-width: 500px;
+    }
+
+    .text-box h3 {
+        font-size: 28px;
+        color: #e91820;
+        margin-bottom: 15px;
+    }
+
+    .text-box p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .learn-more {
+        display: inline-block;
+        background-color: #e91820;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 1s ease;
+    }
+
+    .learn-more:hover {
+        background-color: #e91820;
+        scale: 1.1;
+    }
+
+    .nav-buttons {
+        margin-top: 50px;
+    }
+
+    .nav-buttons label {
+        display: inline-block;
+        margin: 0 5px;
+        background-color: #e91820;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    #slide1:checked~.slides .s1,
+    #slide2:checked~.slides .s2,
+    #slide3:checked~.slides .s3 {
+        display: flex;
+    }
